@@ -16,5 +16,7 @@ public class valores {
 		n4 = scan.nextFloat();
 		diferenca = (n1 * n2) - (n3 * n4); 
 		System.out.println("A diferença entre a multiplicação do primeiro e segundo números em relação à multiplicação do terceiro e quarto números é de  "+diferenca+".");
+	scan.close();
 	}
+	
 }
